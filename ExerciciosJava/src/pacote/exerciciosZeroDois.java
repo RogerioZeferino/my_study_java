@@ -15,15 +15,15 @@ public class exerciciosZeroDois {
 				
 				
 		System.out.println("Entre com o preco do primeiro produto: ");
-		Double produto1 = scan.nextDouble();
+		double produto1 = scan.nextDouble();
 		System.out.println("Entre com o preço do segundo produto: ");
-		Double produto2 = scan.nextDouble();
+		double produto2 = scan.nextDouble();
 		
-		Double valorTotal = produto1 + produto2;
+		double valorTotal = produto1 + produto2;
 		
-		System.out.println("O total dos produtos foi " + valorTotal);
+		System.out.printf("O total dos produtos foi " + valorTotal);
 		
-		
+		scan.close();
 	}
 
 }
