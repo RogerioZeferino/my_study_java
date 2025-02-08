@@ -19,11 +19,21 @@ public class exerciciosZeroTres {
 		int distanciaKm = scan.nextInt();
 		
 		System.out.println("Digite o tempo gasto: ");
-		int tempoGasto = scan.nextInt();
+		int tempoGastoHoras = scan.nextInt();
+
 		
-		double velocidadeMedia = (double) distanciaKm / tempoGasto;
+		int distanciaMetros = distanciaKm * 1000;		
+		int tempoGastoSegundos = tempoGastoHoras * 3600;		
+				
+		double velocidadeMedia1 = (double) distanciaMetros / tempoGastoSegundos;
+
+//		Para transformar de m/s para km/h basta multiplicar por 3.6;
+//		Para transformar de km/h para m/s divide-se por 3.6.		
 		
-		System.out.printf("A velocidade média do percurso foi %.2f km/h", velocidadeMedia);
+		double velocidadeMedia2 = velocidadeMedia1 * 3.6;
+		
+		System.out.println("Ou seja, a velocidade média do percurso em km/h é " + velocidadeMedia2);
+		System.out.printf("A velocidade média é de %2f m/s.", velocidadeMedia1);
 		
 		scan.close();
 	}
