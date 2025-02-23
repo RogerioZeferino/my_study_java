@@ -50,7 +50,38 @@ public class SecaoCinco {
 			
 		
 			
+//			Sintaxes opcionais: operadores de atribuição cumulativa
+		
+//		a+=b; == a=a+b;
+//		a-=b; == a=a-b;
+//		a*=b; == a=a*b;
+//		a%=b; == a=a%b;
+		
+//			Estrutura Switch-Case
 			
-			
+//		Quando se tem várias opções de fluxo a serem tratadas
+//		com base no valor de uma variável, ao invés de várias
+//		estruturas if-elseencadeadas, alguns preferem utilizar
+//		a estrutura switch-case.
+		
+//		Sintaxe do switch-case
+//		 switch ( expressão ) {
+//		 	case valor1:
+//		 		comando1
+//		 		comando2
+//		 		break;
+//		 	case valor2:
+//		 		comando3
+//		 		comando4
+//		 		break;
+//		 	default:
+//		 		comando5
+//		 		comando6
+//		 		break;
+//		 }
+		
+		
+		
+		
 		}
 }
