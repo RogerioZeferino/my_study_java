@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #Sistema de Gestão de Biblioteca
 
 Projeto desenvolvido em Java Utilizando Maven, Hibernate e PostgreSQL. Permite o cadastro, consulta, atualização e remoção de livros e categorias.
@@ -22,5 +22,4 @@ Autor
 Atualização de dados de Categorias e Livros
 Remoção de Categorias e Livros
 =======
-# my_study_java
->>>>>>> a9e716fe1debfcca5c5ea9dafc39ef36ad71f6d5
+
