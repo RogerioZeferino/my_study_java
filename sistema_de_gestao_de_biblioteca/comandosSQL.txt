@@ -1,0 +1,33 @@
+//Criação do banco de dados
+
+create database gestao_biblioteca;
+
+
+
+//Criação da tabela categria
+create table categoria (
+id SERIAL PRIMARY KEY,
+nome VARCHAR(100) UNIQUE NOT NULL,
+descricao VARCHAR(255) NOT NULL
+);
+
+
+
+//Criação da tabela livro
+create table livro (
+id SERIAL PRIMARY KEY,
+titulo VARCHAR(255) NOT NULL,
+autor VARCHAR(100) NOT NULL,
+ano_lancamento int NOT NULL CHECK(ano_lancamento >= 1967) not null,
+ISBN VARCHAR(17) unique NOT NULL,
+sinopse TEXT NOT NULL,
+categoria_id int NOT NULL,
+FOREIGN KEY (categoria_id) REFERENCES categoria(id)
+);
+
+
+
+
+
+
+
